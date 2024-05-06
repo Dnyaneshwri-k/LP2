@@ -52,7 +52,7 @@ int main() {
     int n;
     cout << "Enter the size of the chessboard: ";
     cin >> n;
-    
+
     int board[10][10] = {0};
     if (backtrack(board, 0, n)) {
         // print the first solution found
